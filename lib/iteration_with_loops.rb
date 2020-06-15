@@ -16,7 +16,7 @@ def join_nested_strings(src)
             is_str = value.instance_of? String
             if is_str
                 new_string += value.to_s
-               
+          
             end
             
             inner_index += 1
